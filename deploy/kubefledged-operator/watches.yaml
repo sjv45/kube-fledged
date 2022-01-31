@@ -1,0 +1,4 @@
+- version: v1alpha2
+  group: charts.helm.kubefledged.io
+  kind: KubeFledged
+  chart: helm-charts/kubefledged
