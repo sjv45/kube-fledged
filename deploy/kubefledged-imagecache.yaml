@@ -14,7 +14,7 @@ spec:
   cacheSpec:
   # Specifies a list of images (nginx:1.21.1 and tomcat:10.0.8) with no node selector, hence these images will be cached in all the nodes in the cluster
   - images:
-    - qay.io/bitnami/nginx:1.21.1
+    - nginx:1.21.1
   # Specifies a list of images (redis:6.2.5 and mariadb:10.5.11) with a node selector, hence these images will be cached only on the nodes selected by the node selector
   - images:
     - qay.io/bitnami/redis:6.2.5
